@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "../Wrapper";
-import { SectionHead } from "../about/About";
+import { SectionHead } from "../SectionHead";
 
 const socialIconData = [
   { name: "Facebook", path: "facebook.png" },
@@ -9,7 +9,10 @@ const socialIconData = [
 ];
 const Contact = () => {
   return (
-    <section className="pt-16 w-full  text-[#fff] flex flex-col items-center ">
+    <section
+      id="contact"
+      className="pt-16 w-full  text-[#fff] flex flex-col items-center "
+    >
       <Wrapper>
         <SectionHead id={"04"} title={"Contact"} />
       </Wrapper>

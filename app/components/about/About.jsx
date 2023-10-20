@@ -1,10 +1,14 @@
+import { SectionHead } from "../SectionHead";
 import { Wrapper } from "../Wrapper";
 
 export function About(params) {
   return (
-    <section className="sm:max-h-[500px] mb-12 w-full  text-[#fff] flex justify-center ">
+    <section
+      id="about"
+      className="sm:max-h-[500px] mb-12 w-full  text-[#fff] flex justify-center "
+    >
       <Wrapper>
-        <div className="flex flex-col sm:flex-row justify-between w-full h-full">
+        <div className="flex flex-col sm:flex-row justify-between w-full h-full mt-6 gap-6 sm:gap-0 sm:m-0">
           <div className="flex-1 flex flex-col justify-center ">
             <SectionHead id={"01"} title={"About Us"} />
             <span className="mb-12 pr-2 text-white text-opacity-60 text-[12px] font-normal font-barlow leading-loose">
@@ -30,14 +34,5 @@ export function About(params) {
         </div>
       </Wrapper>
     </section>
-  );
-}
-
-export function SectionHead({ id, title }) {
-  return (
-    <>
-      <span className="text-md font-medium font-barlow">- {id}</span>
-      <h1 className="text-[3rem] font-medium  font-barlow">{title}</h1>
-    </>
   );
 }

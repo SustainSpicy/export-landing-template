@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "../Wrapper";
-import { SectionHead } from "../about/About";
+import { SectionHead } from "../SectionHead";
 
 const fleetImgData = [
   "images01.png",
@@ -10,7 +10,10 @@ const fleetImgData = [
 ];
 const Fleets = () => {
   return (
-    <section className=" w-full text-[#fff] flex flex-col items-center ">
+    <section
+      id="fleet"
+      className=" w-full text-[#fff] flex flex-col items-center "
+    >
       <Wrapper>
         <SectionHead id={"03"} title={"Our Fleets"} />
       </Wrapper>

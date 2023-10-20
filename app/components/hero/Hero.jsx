@@ -3,7 +3,7 @@ import { Wrapper } from "../Wrapper";
 export function Hero(params) {
   return (
     <section
-      className="relative h-[500px] w-full flex justify-center"
+      className="relative h-[700px] w-full flex justify-center"
       style={{ backgroundColor: "#0C2B75" }}
     >
       <img

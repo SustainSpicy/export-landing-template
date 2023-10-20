@@ -1,6 +1,7 @@
 import React from "react";
-import { SectionHead } from "../about/About";
+
 import { Wrapper } from "../Wrapper";
+import { SectionHead } from "../SectionHead";
 
 const serviceCardData = [
   {
@@ -43,7 +44,10 @@ const serviceCardData = [
 
 const Service = () => {
   return (
-    <section className="sm:max-h-[500px] mb-12 w-full bg-[#0C2B75] text-[#fff] flex justify-center ">
+    <section
+      id="service"
+      className="sm:max-h-[500px] mb-12 w-full bg-[#0C2B75] text-[#fff] flex justify-center "
+    >
       <Wrapper>
         <SectionHead id={"02"} title={"Our Services"} />
         <div className="flex flex-wrap mt-12  justify-center sm:justify-between">
