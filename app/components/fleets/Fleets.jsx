@@ -12,7 +12,7 @@ const Fleets = () => {
   return (
     <section
       id="fleet"
-      className=" w-full text-[#fff] flex flex-col items-center "
+      className="pt-6 w-full text-[#fff] flex flex-col items-center "
     >
       <Wrapper>
         <SectionHead id={"03"} title={"Our Fleets"} />

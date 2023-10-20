@@ -46,7 +46,7 @@ const Service = () => {
   return (
     <section
       id="service"
-      className="sm:max-h-[500px] mb-12 w-full bg-[#0C2B75] text-[#fff] flex justify-center "
+      className="pt-6 sm:max-h-[500px] mb-12 w-full bg-[#0C2B75] text-[#fff] flex justify-center "
     >
       <Wrapper>
         <SectionHead id={"02"} title={"Our Services"} />

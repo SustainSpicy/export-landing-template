@@ -4,6 +4,8 @@ import { Wrapper } from "../Wrapper";
 export function About(params) {
   return (
     <section
+      title="about"
+      // dark={true}
       id="about"
       className="sm:max-h-[500px] mb-12 w-full  text-[#fff] flex justify-center "
     >
