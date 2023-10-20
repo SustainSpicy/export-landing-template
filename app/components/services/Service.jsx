@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionHead } from "../about/ABOUT";
+import { SectionHead } from "../about/About";
 import { Wrapper } from "../Wrapper";
 
 const serviceCardData = [

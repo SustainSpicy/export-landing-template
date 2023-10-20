@@ -1,6 +1,6 @@
 import { Wrapper } from "../Wrapper";
 
-export function HERO(params) {
+export function Hero(params) {
   return (
     <section
       className="relative h-[500px] w-full flex justify-center"

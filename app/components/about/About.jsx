@@ -1,6 +1,6 @@
 import { Wrapper } from "../Wrapper";
 
-export function ABOUT(params) {
+export function About(params) {
   return (
     <section className="sm:max-h-[500px] mb-12 w-full  text-[#fff] flex justify-center ">
       <Wrapper>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "../Wrapper";
-import { SectionHead } from "../about/ABOUT";
+import { SectionHead } from "../about/About";
 
 const fleetImgData = [
   "images01.png",
